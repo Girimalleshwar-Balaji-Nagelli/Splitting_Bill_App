@@ -1,0 +1,30 @@
+package com.example.splittingbillapp.Models
+
+data class Item(
+    val addon: List<Addon>,
+    val aname: String,
+    val discount: String,
+    val discount_amount: Int,
+    val discount_type: String,
+    val discount_value: Int,
+    val edit: Any,
+    val finalTotal: Double,
+    val final_item_amount: Double,
+    val free: Int,
+    val id: Int,
+    val instruction: String,
+    val is_served: Any,
+    val item: ItemX,
+    val item_name: String,
+    val item_type: String,
+    val itemid: Int,
+    val offer: Any,
+    val order_id: Int,
+    val price: String,
+    val print: Int,
+    val qty: Int,
+    val status: Any,
+    val sub_name: String,
+    val tax: String,
+    val total: String
+)
